@@ -27,6 +27,23 @@ dependencies {
 
 
 ```
+
+Then
+
+To install GACSDK using settings.gradle, add the following to your `settings.gradle`: 
+```ruby 
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://jitpack.io")
+        }
+    }
+}
+```
+
 Then run:
 Sync your Project
 
