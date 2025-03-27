@@ -94,9 +94,9 @@ GACSDKAPP.registerWallet(this) { responseData ->
 
 Handling Result
 
-The registerWallet method returns a completion handler with a Result type:
-Success : Contains the registered wallet details.
-Failure : Contains an error description if registration fails.
+The registerWallet method returns a completion handler with a Result type:<br/>
+Success : Contains the registered wallet details.<br/>
+Failure : Contains an error description if registration fails.<br/>
 
 
 ## Registering Liveness
@@ -114,9 +114,9 @@ GACSDKAPP.registerLiveness(this,base64Image) { responseData ->
 
 Handling Result
 
-The registerLiveness method returns a completion handler with a Result type:
-Success : Contains the registered wallet details.
-Failure : Contains an error description if registration fails.
+The registerLiveness method returns a completion handler with a Result type:<br/>
+Success : Contains the registered wallet details.<br/>
+Failure : Contains an error description if registration fails.<br/>
 
 ## Notes
 
