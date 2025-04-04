@@ -103,7 +103,7 @@ Failure : Contains an error description if registration fails.<br/>
 
 After successfully registering a wallet, you can proceed with liveness registration:
 ```ruby
-GACSDKAPP.registerLiveness(this,base64Image) { responseData ->
+GACSDKAPP.registerLiveness(this,"<-Liveness Imagebase64->") { responseData ->
     responseData?.let {
         // Handle non-null responseData
     } ?: run {
