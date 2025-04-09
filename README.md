@@ -85,9 +85,9 @@ To register a wallet using GACSDK, call the registerWallet method:
 ```ruby
 GACSDKAPP.registerWallet(this) { responseData ->
     responseData?.let {
-        // Handle non-null responseData
+        //Success Handle non-null responseData
     } ?: run {
-        // Handle null responseData
+        //Failure Handle null responseData
     }
 }
 ```
@@ -105,9 +105,9 @@ After successfully registering a wallet, you can proceed with liveness registrat
 ```ruby
 GACSDKAPP.registerLiveness(this,"<-Liveness Imagebase64->") { responseData ->
     responseData?.let {
-        // Handle non-null responseData
+        //Success Handle non-null responseData
     } ?: run {
-        // Handle null responseData
+        //Failure Handle null responseData
     }
 }
 ```
