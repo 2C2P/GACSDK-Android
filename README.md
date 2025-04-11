@@ -22,7 +22,7 @@ android {
 }
 
 dependencies {
-    implementation("com.2c2p:gac-sdk:1.0.2")
+    implementation("com.2c2p:gac-sdk:1.0.3")
 }
 
 
